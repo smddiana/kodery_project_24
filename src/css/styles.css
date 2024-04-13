@@ -1,5 +1,5 @@
 /*---------------------------------------ПІДКЛЮЧЕННЯ ПАПОК---------------------НЕ ЧІПАТИ!!!-------------*/
-@import url('./reset.css');
+@import url('./global.css');
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./howitworks.css');
