@@ -1,5 +1,165 @@
 /*Bilobabko*/
 .header {
-  padding: 30px 0;
-  background-color: aqua;
+  background-color: #576f35;
+}
+
+.container {
+}
+
+.header-container {
+  padding: 0 20px 0 20px;
+  align-items: center;
+  display: flex;
+}
+
+.icons-list {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.mob-none {
+  display: none;
+}
+
+.menu-open-icon {
+  margin-left: auto;
+}
+
+.menu-open-icon:hover,
+.menu-open-icon:focus {
+  cursor: pointer;
+}
+
+.icon-header {
+  fill: #fbfbfb;
+}
+
+.flex-menu {
+  display: flex;
+}
+
+@media screen and (min-width: 320) and (max-width: 374px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .header-container {
+    padding: 0 32px 0 32px;
+  }
+
+  .icon-mob {
+    width: 18px;
+    height: 18px;
+  }
+
+  .icon-logo-mob {
+    width: 168px;
+    height: 15px;
+  }
+
+  .menu-open-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+
+  .header-container {
+    padding: 0 100px 0 100px;
+  }
+
+  .flex-menu {
+    margin-left: auto;
+  }
+
+  .mob-none {
+    display: unset;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-header {
+    color: #fff;
+  }
+
+  .header-nav {
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 8px;
+  }
+
+  .header-nav-item {
+  }
+
+  .header-logo {
+  }
+
+  .menu-open-icon {
+    display: none;
+  }
+
+  .header-nav-btn {
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px;
+    width: 114px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+  }
+
+  .header-nav-btn:hover,
+  .header-nav-btn:focus {
+    cursor: pointer;
+  }
+
+  .shop-btn {
+    border: 1px;
+    border-radius: 30px;
+    padding: 16px 32px;
+    width: 157px;
+    height: 52px;
+    background-color: #7a3145;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+  }
+
+  .shop-btn:hover,
+  .shop-btn:focus {
+    background-color: #622133;
+  }
+
+  .header-buttons {
+  }
+
+  .but-menu-open {
+    display: none;
+  }
 }

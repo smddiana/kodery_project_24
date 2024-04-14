@@ -68,7 +68,6 @@ img {
   overflow: hidden;
 }
 
-
 /*_______________________________________________ЗАГАЛЬНІ СТИЛІ___________________________________________________*/
 
 :root {
@@ -76,7 +75,7 @@ img {
   --background: #576f35;
   --background-2: #7a3145;
   --main-text: #fbfbfb;
-  --font-family: "Inter Tight", sans-serif;
+  --font-family: 'Inter Tight', sans-serif;
 }
 body {
   font-family: var(--font-family);
@@ -93,7 +92,7 @@ body {
 }
 @media screen and (min-width: 375px) {
   .container {
-   max-width: 375px;
+    max-width: 375px;
   }
 }
 
@@ -101,7 +100,6 @@ body {
   .container {
     width: 768px;
   }
-
 }
 
 @media screen and (min-width: 1280px) {
