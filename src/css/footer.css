@@ -1,10 +1,9 @@
 /*Ivan*/
-@media screen and (min-width: 375px) {
+ .footer-container {
+     padding: 40px 20px;
+ }
 
-    .footer-container {
-        padding: 40px 20px;
-    }
-}
+
 
 @media screen and (min-width: 768px) {
 
@@ -25,13 +24,19 @@
 }
 
 /* 1 */
+
+
 .icon-svg-one-footer {
     margin-right: 4px;
+    fill: #f4f4fd;
+        stroke: transparent;
 }
 
 .icon-svg-too-footer {
     margin-top: 2px;
     margin-bottom: 2px;
+    fill: #f4f4fd;
+        stroke: transparent;
 }
 
 .li-icon-logo-ivan {

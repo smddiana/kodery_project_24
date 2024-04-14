@@ -1,11 +1,9 @@
 /*Ivan*/
-@media screen and (min-width: 375px) {
-
-    .advertisement-cotainer {
-        padding: 80px 10px;
-    }
-
+ .advertisement-cotainer{
+    padding: 80px 10px;
 }
+
+
 
 @media screen and (min-width: 768px) {
 
@@ -58,7 +56,9 @@
         font-size: 64px;
         line-height: 70px;
     }
-
+  .sale-advertisement {
+      display: inline-block;
+  }
    
 }
 
@@ -74,9 +74,9 @@
 
     }
 
-    .sale-advertisement {
+    /* .sale-advertisement {
         display: inline-block;
-    }
+    } */
 
    
 }
