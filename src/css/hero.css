@@ -85,7 +85,8 @@ body {
 }
 @media (min-width: 1280px) {
   .hero {
-    display: block;
+    display: flex;
+    flex-direction: row;
     height: 800px;
     background-image: url(../img/hero/hero-desktop.jpg);
     background-size: 650px 800px;
@@ -93,15 +94,15 @@ body {
   }
   .hero-content {
     display: flex;
-    flex-direction: column;
     padding-top: 154px;
     padding-left: 100px;
-    padding-bottom: 50px;
     width: 502px;
+    margin: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 128px;
   }
-  .hero-title {
-    padding-bottom: 124px;
-  }
+
   .hero-text {
     width: 475px;
   }
