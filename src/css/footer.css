@@ -1,7 +1,7 @@
 /*Ivan*/
- .footer-container {
-     padding: 40px 20px;
- }
+.footer-container {
+    padding: 40px 20px;
+}
 
 
 
@@ -26,20 +26,16 @@
 /* 1 */
 
 
-.icon-svg-one-footer {
-    margin-right: 4px;
-    fill: #f4f4fd;
-        stroke: transparent;
+.icon-footer {
+    stroke: transparent;
+    fill: #fbfbfb;
+    color: #fff;
 }
 
-.icon-svg-too-footer {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    fill: #f4f4fd;
-        stroke: transparent;
-}
-
-.li-icon-logo-ivan {
+.icons-list-footer {
+    display: flex;
+    align-items: center;
+    gap: 4px;
     margin-bottom: 14px;
 }
 
@@ -136,17 +132,15 @@
         margin-bottom: 64px;
     }
 
-    .icon-svg-one-footer {
+    .icon-mob-footer {
         width: 18px;
         height: 18px;
-        margin-right: 8px;
+        gap: 8px;
     }
 
-    .icon-svg-too-footer {
+    .icon-logo-mob-footer {
         width: 168px;
         height: 15px;
-        margin-top: 2px;
-        margin-bottom: 1px;
     }
 
     .footer__text-ivan {
