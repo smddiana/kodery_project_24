@@ -121,11 +121,12 @@
 
 @media screen and (min-width: 768px) {
 
+
     /* footer */
-    .icons-list-footer{
-        margin-bottom: 25px;
+    .icons-list-footer {
+            margin-bottom: 25px;
             gap: 8px;
-    }
+        }
     .logo-nav-address {
         display: flex;
         flex-direction: row;
