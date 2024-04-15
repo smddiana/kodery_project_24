@@ -10,12 +10,12 @@
 
 .reviews-title{
     font-weight: 600;
-    font-size: 48px;
+    font-size: 47px;
     line-height: 104%;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: var(--text);
-    width: 335px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -96,12 +96,19 @@ font-weight: 500;
 
     .reviews-text{
         width: 335px;
+
     }
 
     .reviews-content{
         margin: 0 auto;
         width: 303px;
     }
+    
+    .reviews-title {
+        font-size: 48px;
+
+    }
+
 
     
 
