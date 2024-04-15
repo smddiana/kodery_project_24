@@ -3,9 +3,6 @@
   background-color: #576f35; 
 }
 
-.container {
-}
-
 .header-container {
   padding: 20px 20px 20px 20px;
   align-items: center;
@@ -23,9 +20,11 @@
 }
 
 .menu-open-icon {
+  stroke:#fbfbfb;
+}
+.icon-open-menu-a {
   margin-left: auto;
 }
-
 .menu-open-icon:hover,
 .menu-open-icon:focus {
   cursor: pointer;
