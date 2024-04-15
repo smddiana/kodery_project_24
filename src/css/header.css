@@ -1,6 +1,6 @@
 /*Bilobabko*/
 .header {
-  background-color: #576f35; 
+  background-color: #576f35;
 }
 
 .header-container {
@@ -20,7 +20,7 @@
 }
 
 .menu-open-icon {
-  stroke:#fbfbfb;
+  stroke: #fbfbfb;
 }
 .icon-open-menu-a {
   margin-left: auto;
@@ -78,14 +78,14 @@
   /* .container {
     width: 1280px;
   } */
-.icon-open-menu-a {
-  margin-left: auto;
-}
+  .icon-open-menu-a {
+    display: none;
+  }
   .header {
   }
 
   .header-container {
-    padding: 32px 100px 32px 100px;
+    padding: 32px 100px 0 100px;
     position: fixed;
     right: 0;
     left: 0;
