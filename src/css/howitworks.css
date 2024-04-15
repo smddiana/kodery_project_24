@@ -1,4 +1,240 @@
 /*Vlad*/
 .howitworks {
-    background-color: blueviolet;
+  background-color: blueviolet;
+}
+
+.how-it-made-img {
+  padding: 40px 20px;
+  background-color: #7a3145;
+}
+
+.made-img-content {
+  border-radius: 30px;
+}
+.made-text-container {
+  width: 100%;
+  height: 100%;
+  background-color: #576f35;
+}
+.vegetable-order {
+  padding-top: 80px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.vegetable-order-title {
+  font-weight: 600;
+  font-size: 28px;
+}
+.vegetable-span {
+  color: rgba(251, 251, 251, 0.3);
+}
+.vegetable-order-title-item {
+  margin-top: 20px;
+}
+
+.veg-list-cont {
+  height: 354px;
+}
+.vegetable-order-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  counter-reset: vegetable-order-item 0;
+}
+
+.vegetable-order-list li {
+  position: relative;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  color: rgba(20, 20, 20, 0.6);
+  border-radius: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.vegetable-order-list li::before {
+  content: counter(vegetable-order-item);
+  counter-increment: vegetable-order-item;
+  background-color: #7a3145;
+  border: 7px solid #d5bfc5;
+  font-weight: 600;
+  font-size: 20px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.veg-item-p {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.veg-item-span {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.vegetable-order-item {
+  margin-left: 30px;
+}
+
+@media screen and (min-width: 375px) {
+  .how-it-made {
+    padding: 80px 20px;
+  }
+
+  .how-it-made-img {
+    padding: 40px 20px;
+    background-color: #7a3145;
+  }
+
+  .made-img-content {
+    border-radius: 30px;
+  }
+  .made-text-container {
+    width: 100%;
+    height: 100%;
+    background-color: #576f35;
+  }
+  .vegetable-order {
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  .vegetable-order-title {
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .vegetable-span {
+    color: rgba(251, 251, 251, 0.3);
+  }
+  .vegetable-order-title-item {
+    margin-top: 20px;
+  }
+
+  .veg-list-cont {
+    height: 354px;
+  }
+  .vegetable-order-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    counter-reset: vegetable-order-item 0;
+  }
+
+  .vegetable-order-list li {
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    color: rgba(20, 20, 20, 0.6);
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .vegetable-order-list li::before {
+    content: counter(vegetable-order-item);
+    counter-increment: vegetable-order-item;
+    background-color: #7a3145;
+    border: 7px solid #d5bfc5;
+    font-weight: 600;
+    font-size: 20px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .veg-item-p {
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .veg-item-span {
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .vegetable-order-item {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .how-it-made-img {
+    display: flex;
+    justify-content: center;
+    padding: 100px 64px;
+  }
+  .made-img-content {
+    width: 640px;
+    height: 640px;
+  }
+  .made-text-container {
+    padding: 100px 159px;
+  }
+  .vegetable-order-item {
+    width: 450px;
+  }
+  .vegetable-order-title {
+    font-size: 32px;
+    line-height: 1;
+  }
+  .vegetable-order-title-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .veg-item-p {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+  .vegetable-order-list {
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .how-it-made {
+    display: flex;
+  }
+  .how-it-made-img {
+    padding: 100px;
+    width: 630px;
+    height: 759px;
+  }
+  .made-text-container {
+    padding: 100px 100px 160px 100px;
+    width: 650px;
+    height: 759px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .made-img-content {
+    width: 430px;
+height: 559px;
+  }
 }
