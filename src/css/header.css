@@ -1,13 +1,13 @@
 /*Bilobabko*/
 .header {
-  background-color: #576f35;
+  /* background-color: #576f35; */
 }
 
 .container {
 }
 
 .header-container {
-  padding: 0 20px 0 20px;
+  padding: 20px 20px 20px 20px;
   align-items: center;
   display: flex;
 }
@@ -40,23 +40,23 @@
 }
 
 @media screen and (min-width: 320) and (max-width: 374px) {
-  .container {
+  /* .container {
     width: 100%;
-  }
+  } */
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  /* .container {
     width: 375px;
-  }
+  } */
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  /* .container {
     width: 768px;
-  }
+  } */
   .header-container {
-    padding: 0 32px 0 32px;
+    padding: 32px 32px 32px 32px;
   }
 
   .icon-mob {
@@ -76,12 +76,18 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     width: 1280px;
+  } */
+
+  .header {
   }
 
   .header-container {
-    padding: 0 100px 0 100px;
+    padding: 32px 100px 32px 100px;
+    position: fixed;
+    right: 0;
+    justify-content: space-between;
   }
 
   .flex-menu {
