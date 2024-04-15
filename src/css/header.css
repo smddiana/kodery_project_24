@@ -78,7 +78,9 @@
   /* .container {
     width: 1280px;
   } */
-
+.icon-open-menu-a {
+  margin-left: auto;
+}
   .header {
   }
 
