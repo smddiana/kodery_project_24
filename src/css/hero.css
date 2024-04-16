@@ -101,11 +101,12 @@ body {
     display: flex;
     padding-top: 154px;
     padding-left: 100px;
-    width: 502px;
+    width: 630px;
     margin: 0;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 128px;
+    padding-right: 28px;
   }
 
   .hero-text {
