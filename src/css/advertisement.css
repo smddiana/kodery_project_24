@@ -1,4 +1,5 @@
 /*Ivan*/
+/*
  .advertisement-cotainer{
     padding: 80px 10px;
 }
@@ -21,7 +22,7 @@
 
 }
 
-/*  advertisement */
+/*  advertisement *//*
 .advertisement {
     background-color: #fbfbfb;
 }
@@ -46,12 +47,11 @@
 }
 
 
-/* !!!!!!!!!! */
 
 
 @media screen and (min-width: 768px) {
 
-    /* advertisement */
+    /* advertisement *//*
     .text-advertisement {
         font-size: 64px;
         line-height: 70px;
@@ -62,21 +62,103 @@
    
 }
 
-
-
-
 @media screen and (min-width: 1280px) {
 
-    /* advertisement */
+    /* advertisement *//*
     .text-advertisement {
         font-size: 76px;
         line-height: 80px;
 
     }
 
-    /* .sale-advertisement {
-        display: inline-block;
-    } */
-
    
+}
+*/
+.advertisement {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #fbfbfb;
+}
+
+.advertisement .container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.adv-text {
+    display: block;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+.adv-text-title {
+    display: block;
+    color: #fbfbfb;
+    border-style: solid;
+    border-color: #576f35;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-radius: 12px;
+    background-color: #576f35;
+    padding-left: 0;
+}
+
+.adv-text-descr {
+    display: block;
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .advertisement {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .advertisement .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .adv-text {
+        font-size: 64px;
+        line-height: 1.09;
+    }
+
+    .adv-text-title {
+        border-left-width: 16px;
+        border-right-width: 16px;
+    }
+
+    .adv-text-descr {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .advertisement .container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .adv-text {
+        font-size: 76px;
+        line-height: 1.05;
+    }
+
+    .adv-text-title {
+        display: inline;
+        border-left-width: 13px;
+        border-right-width: 13px;
+        position: relative;
+        left: -13px;
+    }
+
+    .adv-text-descr {
+        display: inline;
+        padding-left: 0;
+        padding-right: 13px;
+    }
 }
