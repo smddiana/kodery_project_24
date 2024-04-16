@@ -78,6 +78,7 @@ body {
     height: 800px;
     background-size: 650px 800px;
     background-position: right;
+    justify-content: center;
   }
 
   .hero-content {
